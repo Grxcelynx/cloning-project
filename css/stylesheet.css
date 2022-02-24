@@ -1,223 +1,50 @@
-/* navbar */
+body {
+    margin: 40px;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 3px;
+    background-color: #fff;
+    color: #444;
+  }
+  
+  .box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
 
-RazerF5 - 300×
-Family
-RazerF5, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-Style
-normal
-Weight
-300
-Size
-16px
-Line Height
-19px
-Color
-#ffffff
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsT
+  .wrapper img {
+      height: 100px;
+      width: 100px;
+  }
 
-/* banner below nav */
+  /* .logo {
+    height: 30px;
+    width: 30px;
+  } */
+  .navbar-custom {
+    background-color: black;
+    border-bottom: 1px solid  #44d62c;
+}
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-text {
+      color: green;
+  }
 
-Roboto - 400×
-Family
-Roboto, sans-serif;
-Style
-normal
-Weight
-400
-Size
-14px
-Line Height
-20px
-Color
-#eeeeee
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqR
+  i {
+    color: grey;
+  }
 
-/* new razor blade 14 */
-Roboto - 400×
-Family
-Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-Style
-normal
-Weight
-400
-Size
-16px
-Line Height
-24px
-Color
-#44d62c
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqR
+  .navitems {
+    color: grey;
+    text-decoration: none;
+  }
 
-/*  the ultimate 14"...*/
-
-Roboto - 400×
-Family
-Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-Style
-normal
-Weight
-400
-Size
-16px
-Line Height
-24px
-Color
-#44d62c
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRr
-
-/* learn more, pre-order... */
-oji", "Segoe UI Symbol", "Noto Color Emoji";
-Style
-normal
-Weight
-400
-Size
-16px
-Line Height
-24px
-Color
-#44d62c
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
-
-/* razer store rewards...., sign up to unlock... */
-
-Roboto - 400×
-Family
-Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-Style
-normal
-Weight
-400
-Size
-16px
-Line Height
-24px
-Color
-#44d62c
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRr
-
-
-/* join now> */
-
-RazerF5 - 300×
-Family
-RazerF5, Arial, Helvetica, sans-serif;
-Style
-normal
-Weight
-300
-Size
-21px
-Line Height
-?
-Color
-#ffffff
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsT
-
-/* nwe razer blade 15 , power, performance... */
-
-Roboto - 400×
-Family
-Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-Style
-normal
-Weight
-400
-Size
-16px
-Line Height
-24px
-Color
-#44d62c
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRr
-
-/* learn more , preorder now */
-
-RazerF5 - 300×
-Family
-RazerF5, Arial, Helvetica, sans-serif;
-Style
-normal
-Weight
-300
-Size
-21px
-Line Height
-?
-Color
-#ffffff
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
-
-
-
-/*all six squares start here */
-/* It's fragging season,make way for your best play */
-
-Roboto - 400×
-Family
-Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-Style
-normal
-Weight
-400
-Size
-16px
-Line Height
-24px
-Color
-#44d62c
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqR
-
-/* shop exclusive deals */
-
-RazerF5 - 300×
-Family
-RazerF5, Arial, Helvetica, sans-serif;
-Style
-normal
-Weight
-300
-Size
-17px
-Line Height
-?
-Color
-#ffffff
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsT
-
-
-
-
-/*  footer fonts*/
-
-Roboto - 400×
-Family
-Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-Style
-normal
-Weight
-400
-Size
-12px
-Line Height
-18px
-Color
-#ffffff
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRr
-
-/* for gamer.by gamers */
-
-RazerF5 - 400×
-Family
-RazerF5, Arial;
-Style
-normal
-Weight
-400
-Size
-14px
-Line Height
-22px
-Color
-#44d62c
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSs
+  .navitems:hover {
+    color: white;
+  }
