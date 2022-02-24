@@ -1,5 +1,7 @@
 body {
-    margin: 40px;
+    /* margin: 40px; */
+    margin: 0;
+    padding: 0;
   }
   
   .wrapper {
@@ -30,11 +32,14 @@ body {
   .navbar-custom {
     background-color: black;
     border-bottom: 1px solid  #44d62c;
+    width: 100%;
 }
+
   .navbar-custom .navbar-brand,
   .navbar-custom .navbar-text {
       color: green;
   }
+
 
   i {
     color: grey;
@@ -48,3 +53,18 @@ body {
   .navitems:hover {
     color: white;
   }
+
+  .navbar {
+    width: 100%;
+    padding-top:0 !important;
+  }
+
+.hero-img {
+  width: 50%;
+}
+ 
+
+.footer-custom {
+  background-color: black;
+  color: white;
+}
