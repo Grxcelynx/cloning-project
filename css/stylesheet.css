@@ -11,6 +11,21 @@ body {
     background-color: #fff;
     color: #444;
   }
+
+  .banner{
+    
+    width: 100%;
+    background-color:  darkgray;
+    height: 50px;
+  }
+  .topbanner{
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 0px;
+
+}
   
   .box {
     background-color: #444;
@@ -22,13 +37,17 @@ body {
 
   .wrapper img {
       height: 100px;
-      width: 100px;
+      width: 100%;
   }
+
+  
 
   /* .logo {
     height: 30px;
     width: 30px;
   } */
+
+  /*  
   .navbar-custom {
     background-color: black;
     border-bottom: 1px solid  #44d62c;
@@ -68,3 +87,4 @@ body {
   background-color: black;
   color: white;
 }
+  */
