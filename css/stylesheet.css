@@ -8,12 +8,12 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     grid-gap: 3px;
-    background-color: #fff;
+    background-color: rgb(41, 39, 39);
     color: #444;
   }
   
   .box {
-    /* background-color: #444; */
+    background-color: #444;
     display: inline-flex;
     color: #fff;
     border-radius: 5px;
@@ -74,43 +74,43 @@ body {
 
 #box1 {
   /* background-color: pink; */
-  background-image: url(C:/Users/BW-Apprentice/Projects/cloning-project/img/razer-esl2-homepage-desktop.jpg);
-  margin-bottom: 10px;
-
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  /* background-color: pink; */
+  height: 500px;
 }
 
 #box2 {
   /* background-color: pink; */
-  background-image: url(C:/Users/BW-Apprentice/Projects/cloning-project/img/razer-esl2-homepage-desktop.jpg);
-  margin-bottom: 10px;
-
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  height: 500px;
 }
 
 #box3 {
   /* background-color: pink; */
-  background-image: url(C:/Users/BW-Apprentice/Projects/cloning-project/img/razer-esl2-homepage-desktop.jpg);
-  margin-bottom: 10px;
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  height: 500px;
 
 }
 
 #box4 {
   /* background-color: pink; */
-  background-image: url(C:/Users/BW-Apprentice/Projects/cloning-project/img/razer-esl2-homepage-desktop.jpg);
-  margin-bottom: 10px;
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  height: 500px;
 
 }
 
 #box5 {
   /* background-color: pink; */
-  background-image: url(C:/Users/BW-Apprentice/Projects/cloning-project/img/razer-esl2-homepage-desktop.jpg);
-  margin-bottom: 10px;
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  height: 500px;
 
 }
 
 #box6 {
   /* background-color: pink; */
-  background-image: url(C:/Users/BW-Apprentice/Projects/cloning-project/img/razer-esl2-homepage-desktop.jpg);
-  margin-bottom: 10px;
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  height: 500px;
+
 }
 
 
