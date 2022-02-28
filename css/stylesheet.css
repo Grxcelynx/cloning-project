@@ -6,9 +6,9 @@ body {
   
   .wrapper {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     grid-gap: 3px;
-    background-color: #fff;
+    background-color: rgb(41, 39, 39);
     color: #444;
   }
 
@@ -29,6 +29,7 @@ body {
   
   .box {
     background-color: #444;
+    display: inline-flex;
     color: #fff;
     border-radius: 5px;
     padding: 20px;
@@ -36,6 +37,7 @@ body {
   }
 
   .wrapper img {
+<<<<<<< HEAD
       height: 100px;
       width: 100%;
   }
@@ -48,6 +50,11 @@ body {
   } */
 
   /*  
+=======
+      
+
+
+>>>>>>> b8aee4dd4a9a273e1b0a17c7b6ba7ba78018f879
   .navbar-custom {
     background-color: black;
     border-bottom: 1px solid  #44d62c;
@@ -79,7 +86,8 @@ body {
   }
 
 .hero-img {
-  width: 50%;
+  display: flex;
+  width: 100%;
 }
  
 
@@ -87,4 +95,50 @@ body {
   background-color: black;
   color: white;
 }
+<<<<<<< HEAD
   */
+=======
+
+#box1 {
+  /* background-color: pink; */
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  /* background-color: pink; */
+  height: 500px;
+}
+
+#box2 {
+  /* background-color: pink; */
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  height: 500px;
+}
+
+#box3 {
+  /* background-color: pink; */
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  height: 500px;
+
+}
+
+#box4 {
+  /* background-color: pink; */
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  height: 500px;
+
+}
+
+#box5 {
+  /* background-color: pink; */
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  height: 500px;
+
+}
+
+#box6 {
+  /* background-color: pink; */
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  height: 500px;
+
+}
+
+
+>>>>>>> b8aee4dd4a9a273e1b0a17c7b6ba7ba78018f879
