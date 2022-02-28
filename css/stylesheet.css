@@ -6,14 +6,15 @@ body {
   
   .wrapper {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
     grid-gap: 3px;
     background-color: #fff;
     color: #444;
   }
   
   .box {
-    background-color: #444;
+    /* background-color: #444; */
+    display: inline-flex;
     color: #fff;
     border-radius: 5px;
     padding: 20px;
@@ -21,14 +22,15 @@ body {
   }
 
   .wrapper img {
-      height: 100px;
-      width: 100px;
+      /* height: 500px; */
+      /* width: 400px; */
+      width: 350px;
+      padding: 0px;
+      border: 5px solid gray;
+      margin-left: 0px;
   }
 
-  /* .logo {
-    height: 30px;
-    width: 30px;
-  } */
+
   .navbar-custom {
     background-color: black;
     border-bottom: 1px solid  #44d62c;
@@ -60,7 +62,8 @@ body {
   }
 
 .hero-img {
-  width: 50%;
+  display: flex;
+  width: 100%;
 }
  
 
@@ -68,3 +71,46 @@ body {
   background-color: black;
   color: white;
 }
+
+#box1 {
+  /* background-color: pink; */
+  background-image: url(C:/Users/BW-Apprentice/Projects/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  margin-bottom: 10px;
+
+}
+
+#box2 {
+  /* background-color: pink; */
+  background-image: url(C:/Users/BW-Apprentice/Projects/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  margin-bottom: 10px;
+
+}
+
+#box3 {
+  /* background-color: pink; */
+  background-image: url(C:/Users/BW-Apprentice/Projects/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  margin-bottom: 10px;
+
+}
+
+#box4 {
+  /* background-color: pink; */
+  background-image: url(C:/Users/BW-Apprentice/Projects/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  margin-bottom: 10px;
+
+}
+
+#box5 {
+  /* background-color: pink; */
+  background-image: url(C:/Users/BW-Apprentice/Projects/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  margin-bottom: 10px;
+
+}
+
+#box6 {
+  /* background-color: pink; */
+  background-image: url(C:/Users/BW-Apprentice/Projects/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  margin-bottom: 10px;
+}
+
+
