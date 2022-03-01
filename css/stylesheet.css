@@ -110,6 +110,22 @@ body {
     padding-top:0 !important;
   }
 
+  .banner{
+    
+    width: 100%;
+    background-color:  darkgray;
+}
+
+.topbanner {
+    text-align: center;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 0px;
+
+}
+ 
+
 .hero-img {
   display: flex;
   width: 100%;
