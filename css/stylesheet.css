@@ -1,223 +1,116 @@
-/* navbar */
+body {
+    /* margin: 40px; */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 3px;
+    background-color: rgb(41, 39, 39);
+    color: #444;
+  }
+  
+  .box {
+    background-color: #444;
+    display: inline-flex;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+  }
 
-RazerF5 - 300×
-Family
-RazerF5, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
-Style
-normal
-Weight
-300
-Size
-16px
-Line Height
-19px
-Color
-#ffffff
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsT
-
-/* banner below nav */
-
-Roboto - 400×
-Family
-Roboto, sans-serif;
-Style
-normal
-Weight
-400
-Size
-14px
-Line Height
-20px
-Color
-#eeeeee
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqR
-
-/* new razor blade 14 */
-Roboto - 400×
-Family
-Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-Style
-normal
-Weight
-400
-Size
-16px
-Line Height
-24px
-Color
-#44d62c
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqR
-
-/*  the ultimate 14"...*/
-
-Roboto - 400×
-Family
-Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-Style
-normal
-Weight
-400
-Size
-16px
-Line Height
-24px
-Color
-#44d62c
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRr
-
-/* learn more, pre-order... */
-oji", "Segoe UI Symbol", "Noto Color Emoji";
-Style
-normal
-Weight
-400
-Size
-16px
-Line Height
-24px
-Color
-#44d62c
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
-
-/* razer store rewards...., sign up to unlock... */
-
-Roboto - 400×
-Family
-Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-Style
-normal
-Weight
-400
-Size
-16px
-Line Height
-24px
-Color
-#44d62c
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRr
+  .wrapper img {
+      /* height: 500px; */
+      /* width: 400px; */
+      width: 350px;
+      padding: 0px;
+      border: 5px solid gray;
+      margin-left: 0px;
+  }
 
 
-/* join now> */
+  .navbar-custom {
+    background-color: black;
+    border-bottom: 1px solid  #44d62c;
+    width: 100%;
+}
 
-RazerF5 - 300×
-Family
-RazerF5, Arial, Helvetica, sans-serif;
-Style
-normal
-Weight
-300
-Size
-21px
-Line Height
-?
-Color
-#ffffff
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsT
-
-/* nwe razer blade 15 , power, performance... */
-
-Roboto - 400×
-Family
-Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-Style
-normal
-Weight
-400
-Size
-16px
-Line Height
-24px
-Color
-#44d62c
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRr
-
-/* learn more , preorder now */
-
-RazerF5 - 300×
-Family
-RazerF5, Arial, Helvetica, sans-serif;
-Style
-normal
-Weight
-300
-Size
-21px
-Line Height
-?
-Color
-#ffffff
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsTtUuVvWwXxYyZz
+  .navbar-custom .navbar-brand,
+  .navbar-custom .navbar-text {
+      color: green;
+  }
 
 
+  i {
+    color: grey;
+  }
 
-/*all six squares start here */
-/* It's fragging season,make way for your best play */
+  .navitems {
+    color: grey;
+    text-decoration: none;
+  }
 
-Roboto - 400×
-Family
-Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-Style
-normal
-Weight
-400
-Size
-16px
-Line Height
-24px
-Color
-#44d62c
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqR
+  .navitems:hover {
+    color: white;
+  }
 
-/* shop exclusive deals */
+  .navbar {
+    width: 100%;
+    padding-top:0 !important;
+  }
 
-RazerF5 - 300×
-Family
-RazerF5, Arial, Helvetica, sans-serif;
-Style
-normal
-Weight
-300
-Size
-17px
-Line Height
-?
-Color
-#ffffff
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSsT
+.hero-img {
+  display: flex;
+  width: 100%;
+}
+ 
+
+.footer-custom {
+  background-color: black;
+  color: white;
+}
+
+#box1 {
+  /* background-color: pink; */
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  /* background-color: pink; */
+  height: 500px;
+}
+
+#box2 {
+  /* background-color: pink; */
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  height: 500px;
+}
+
+#box3 {
+  /* background-color: pink; */
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  height: 500px;
+
+}
+
+#box4 {
+  /* background-color: pink; */
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  height: 500px;
+
+}
+
+#box5 {
+  /* background-color: pink; */
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  height: 500px;
+
+}
+
+#box6 {
+  /* background-color: pink; */
+  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  height: 500px;
+
+}
 
 
-
-
-/*  footer fonts*/
-
-Roboto - 400×
-Family
-Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-Style
-normal
-Weight
-400
-Size
-12px
-Line Height
-18px
-Color
-#ffffff
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRr
-
-/* for gamer.by gamers */
-
-RazerF5 - 400×
-Family
-RazerF5, Arial;
-Style
-normal
-Weight
-400
-Size
-14px
-Line Height
-22px
-Color
-#44d62c
-AaBbCcDdEeFfGgHhIiJjKkLlMmNnOoPpQqRrSs
