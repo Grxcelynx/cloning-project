@@ -30,6 +30,15 @@ body {
       margin-left: 0px;
   }
 
+  .boxtext {
+    text-align: center;
+
+  }
+
+  #HASH {
+    display: flex;
+    justify-content: space-between;
+  }
 
   .navbar-custom {
     background-color: black;
@@ -81,7 +90,7 @@ body {
 
 #box2 {
   /* background-color: pink; */
-  background-image: url(/cloning-project/img/razer-esl2-homepage-desktop.jpg);
+  background-image: url(/cloning-project/img/razer-blade-17-2022-b-950x580-desktop-new.jpg);
   height: 500px;
 }
 
