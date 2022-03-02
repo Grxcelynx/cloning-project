@@ -1,53 +1,63 @@
+  * {
+  margin: 0px;
+  padding: 0px;
 
+  }
 
   nav ul{
-    background-color: black;
-    padding: 10px;
-    
-    
-}
+    margin-right: 25px;
+  }
 
-nav ul li {
+  nav ul li {
     display:inline-block;
-    margin-left: 30px;
-
-
-}
-
-nav ul li a {
+    margin-left: 25px;
+    
+  }
+  
+  nav ul li a {
     text-decoration: none;
     color: grey;
-    font-size: 20px;
-    padding: 20px;
-}
-nav ul li a:hover{
+    font-size: 16px;
+    padding: 26px;
+  }
+
+  nav ul li a:hover{
     color: white;
-}
+  }
 
-i {
+  i {
     color: grey;
-    padding: 20px;
-
+    padding: 26px;
     
-}
-nav {
-    border-bottom: 2px solid green;
-    margin-bottom: 0px;
 
-}
-.banner{
+  }
+
+  nav {
+    border-bottom: 1px solid #0af30a;
+    margin-bottom: 0px;
+    background-color: black;
+    height: 65px;
+    
+
+  }
+
+  .banner{
     
   width: 100%;
-  background-color:  darkgray;
-}
+  background-color:  rgb(70, 68, 68);
+  margin-top: 0px;
+  height: 45px;
 
-.topbanner {
-  text-align: center;
-  color: white;
-  padding: 15px;
-  font-size: 20px;
-  margin-bottom: 0px;
-}
+  }
+
+  .topbanner {
+    text-align: center;
+    color: rgb(241, 226, 226);
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 0px;
+
+  }
 
 
   
@@ -66,6 +76,7 @@ nav {
   #hero-titles {
     font-size: 55px;
   }
+
   .hero-1 {
     background-image: url(./img/razer-blade14-2022-homepage-desktop.jpg);
     background-position: center;
@@ -189,7 +200,7 @@ nav {
 .allboxes{ 
 
     display:flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     background-color: black;
     margin: 0px;
 
@@ -299,7 +310,7 @@ padding-top: 20px;
            
     margin-left: 60px; 
     margin-right: 50px;
-    color: solid grey;
+    color: grey;
  }
 
 .last{
