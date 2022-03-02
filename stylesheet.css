@@ -1,64 +1,58 @@
-  * {
+* {
   margin: 0px;
   padding: 0px;
+}
 
-  }
+nav ul{
 
-  nav ul{
-    margin-right: 25px;
-  }
+  margin-right: 25px;
+  padding-left: 50px;
+  padding-right: 40px;
+}
 
-  nav ul li {
-    display:inline-block;
-    margin-left: 25px;
+nav ul li {
+  display:inline-block;
+  margin-left: 25px;
     
-  }
+}
   
-  nav ul li a {
-    text-decoration: none;
-    color: grey;
-    font-size: 16px;
-    padding: 26px;
-  }
+nav ul li a {
+  text-decoration: none;
+  color: grey;
+  font-size: 16px;
+  padding: 26px;
+}
 
-  nav ul li a:hover{
-    color: white;
-  }
+nav ul li a:hover{
+  color: white;
+}
 
-  i {
-    color: grey;
-    padding: 26px;
-    
+i {
+  color: grey;
+  padding: 26px;
+}
 
-  }
+nav {
+  border-bottom: 1px solid #0af30a;
+  margin-bottom: 0px;
+  background-color: black;
+  height: 65px;
+}
 
-  nav {
-    border-bottom: 1px solid #0af30a;
-    margin-bottom: 0px;
-    background-color: black;
-    height: 65px;
-    
-
-  }
-
-  .banner{
-    
+.banner{
   width: 100%;
   background-color:  rgb(70, 68, 68);
   margin-top: 0px;
   height: 45px;
+}
 
-  }
-
-  .topbanner {
-    text-align: center;
-    color: rgb(241, 226, 226);
-    padding: 10px;
-    font-size: 14px;
-    margin-bottom: 0px;
-
-  }
-
+.topbanner {
+  text-align: center;
+  color: rgb(241, 226, 226);
+  padding: 15px;
+  font-size: 14px;
+  margin-bottom: 0px;
+}
 
   
   .main-imgs {
@@ -191,189 +185,178 @@
   text-align: center;
 }
 
+/* footer starts */
 .foot{
-    background-color: black;
-
+  background-color: rgb(27, 24, 24);
+  height: 350px;
 }
+
 .allboxes{ 
-
-    display:flex;
-    /* justify-content: space-around; */
-    background-color: black;
-    margin: 0px;
-
+  display:flex;
+  justify-content: space-around; 
+  margin: 0px;
 }  
 
 .box1{
-align-items: baseline;
-color: grey;
-padding-bottom: 20px;
-padding-top: 20px;
-
-
+  align-items: baseline;
+  color: grey;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 12px;
 }
 
 .box2{
-align-items: baseline;
-color: grey;
-padding-bottom: 20px;
-padding-top: 20px;
-
-
+  align-items: baseline;
+  color: grey;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 12px;
 }
+
 .box3{
-    align-items: center;
-color: grey;
-padding-bottom: 20px;
-padding-top: 20px;
-
-
+  align-items: center;
+  color: grey;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 12px;
 }
 
 .box4{
-    align-items: baseline;
-color: grey;
-padding-bottom: 20px;
-padding-top: 20px;
-
-
+  align-items: baseline;
+  color: grey;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 12px;
 }
 
 .box5{
-align-items: baseline;
-color: grey;
-padding-bottom: 20px;
-padding-top: 20px;
-
+  align-items: baseline;
+  color: grey;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 12px;
 }
 
 .heading{
-    color: white;
-    padding-bottom: 20px;
+  color: white;
+  padding-bottom: 15px;
+  font-size: 15px;
 }
 
 .ft{
-    padding-bottom: 20px;
-
-
+  padding-bottom: 15px;
+  font-size: 15px;
 }
 
+.ft:hover{
+  color: white;
+  text-decoration: underline;
+}
 
 .fa-facebook{
-    
-    color: green;
-    text-decoration: none;
-    padding: 10px;
-    padding-left: 12px;
-    
-    
+  
+  color: rgb(16, 235, 16);
+  text-decoration: none;
+  padding: 10px;
+  padding-left: 12px;
 }
-.fa-twitter{
-    color: green;
-    text-decoration: none;
-    padding: 10px;
-    
-    
-    
 
+.fa-twitter{
+  color: rgb(16, 235, 16);
+  text-decoration: none;
+  padding: 10px;
 }
+
 .fa-instagram{
-    color: green;
-    text-decoration: none;
-    padding: 10px;
-    
-    
+  color: rgb(16, 235, 16);
+  text-decoration: none;
+  padding: 10px;
 }
 
 .green{
-    color: green;
-    padding-bottom: 20px;
+  color: #08ee08;
+  padding-bottom: 20px;
+  font-size: 16px;
 }
 
 .radious{
-            
-    border-radius: 100%;
-    border: 2px  solid green;
-    margin: 5px;
-    text-align: center;
-   
-   
+          
+  border-radius: 100%;
+  border: 1.5px  solid #08ee08;
+  margin-left:5px ;
+  text-align: center;
 }
 
 .social-media{
-    margin-left: 60px;
+  margin-left: 80px;
+  color: hsl(120, 90%, 23%);
+  float: right;
 }
 
 .hr-line{
-           
-    margin-left: 60px; 
-    margin-right: 50px;
-    color: grey;
- }
+         
+  margin-left: 60px; 
+  margin-right: 50px;
+  background-color: rgb(83, 80, 80);
+}
 
 .last{
-    display:flex;
-    background-color: black;
-    
+  display:flex;
 }
 
 .line1{
-    align-items: baseline;
-    color: grey;
-    padding: 20px 30px 20px 60px;
+  align-items: baseline;
+  color: grey;
+  padding: 15px 30px 20px 60px;
 }
 
 .line2{
-    align-items: baseline;
-    color: grey;
-    padding: 20px 15px 20px;
-    
+  align-items: baseline;
+  color: grey;
+  padding: 15px 15px 20px;
 }
+
 .line3{
-    align-items: baseline;
-    color: grey;
-    padding: 20px 15px 20px;
+  align-items: baseline;
+  color: grey;
+  padding: 15px 15px 20px;
 }
 .line4{
-    align-items: baseline;
-    color: grey;
-    padding: 20px 15px 20px;
+  align-items: baseline;
+  color: grey;
+  padding: 15px 15px 20px;
 }
 
 .line5{
-    align-items: baseline;
-    color: grey;
-    padding: 20px 15px 20px;
+  align-items: baseline;
+  color: grey;
+  padding: 15px 15px 20px;
 }
 .line6{
-    align-items: baseline;
-    color: grey;
-    padding: 20px 5px 20px 270px;
-    color: white;
-    
- }
+  align-items: baseline;
+  color: grey;
+  padding: 15px 5px 20px 270px;
+  color: white;
+}
 
- .line7{
-    align-items: center;
-    color: grey;
-    padding: 20px 15px 20px 5px ;
-    
-    
+.line7{
+  align-items: center;
+  color: grey;
+  padding: 15px 15px 20px 5px ;
+  
+  
 }
 .pipe{
-    color:grey;
-    margin-top: 20px;
-
+  color:grey;
+  margin-top: 15px;
 }
+
 .last2{
-    float: right;
+  float: right;
 }
 
 .lastcontents:hover{
-    color: white;
-
+  color: white;
+  text-decoration: underline;
 }
-
-
-
-
+/* footer ends */
