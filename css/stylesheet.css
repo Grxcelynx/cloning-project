@@ -49,7 +49,7 @@ body {
   .wrapper {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 9px;
+    /* grid-gap: 9px; */
     background-color: rgb(27, 25, 25);
     color: rgb(39, 39, 39);
   }
@@ -57,7 +57,7 @@ body {
   .box {
     /* display: inline-flex; */
     color: #fff;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     padding: 20px;
     font-size: 150%;
     align-items:baseline;
