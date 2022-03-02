@@ -99,7 +99,7 @@
     background-image: url(./img/complete-your-setup-homepage-desktop.jpg);
     background-position: center;
     height: 600px;
-    border-bottom: solid 2px rgb(32, 32, 32);
+    border-bottom: solid 5px rgb(32, 32, 32);
 
   }
 
@@ -107,15 +107,13 @@
   .wrapper {
     display: grid;
     grid-template-columns: auto auto;
-    /* grid-gap: 9px; */
+    grid-gap: 9px;
     background-color: rgb(27, 25, 25);
     color: rgb(39, 39, 39);
   }
   
   .box {
-    /* display: inline-flex; */
     color: #fff;
-    /* border-radius: 5px; */
     padding: 20px;
     font-size: 150%;
     align-items:baseline;
@@ -146,7 +144,7 @@
  
 #box-one {
   background-image: url(./img/razer-blade-17-2022-b-950x580-desktop-new.jpg);
-  height: 600px;
+  height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
