@@ -1,8 +1,56 @@
-body {
-    /* margin: 40px; */
-    margin: 0;
-    padding: 0;
-  }
+
+
+  nav ul{
+    background-color: black;
+    padding: 10px;
+    
+    
+}
+
+nav ul li {
+    display:inline-block;
+    margin-left: 30px;
+
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    padding: 20px;
+}
+nav ul li a:hover{
+    color: white;
+}
+
+i {
+    color: grey;
+    padding: 20px;
+
+    
+}
+nav {
+    border-bottom: 2px solid green;
+    margin-bottom: 0px;
+
+}
+.banner{
+    
+  width: 100%;
+  background-color:  darkgray;
+}
+
+.topbanner {
+  text-align: center;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  margin-bottom: 0px;
+
+}
+
+
   
   .main-imgs {
     background-color: rgb(15, 15, 15);
@@ -19,7 +67,7 @@ body {
     font-size: 55px;
   }
   .hero-1 {
-    background-image: url(/cloning-project/img/razer-blade14-2022-homepage-desktop.jpg);
+    background-image: url(/img/razer-blade14-2022-homepage-desktop.jpg);
     background-position: center;
     height: 600px;
     background-position-y: 90%;
@@ -27,7 +75,7 @@ body {
   }
 
   .hero-2 {
-    background-image: url(/cloning-project/img/razerstore-rewards-desktop.jpg);
+    background-image: url(/img/razerstore-rewards-desktop.jpg);
     background-position: center;
     height: 600px;
     border-bottom: solid 9px rgb(32, 32, 32);
@@ -35,7 +83,7 @@ body {
   }
 
   .hero-3 {
-    background-image: url(/cloning-project/img/complete-your-setup-homepage-desktop.jpg);
+    background-image: url(/img/complete-your-setup-homepage-desktop.jpg);
     background-position: center;
     height: 600px;
     border-bottom: solid 9px rgb(32, 32, 32);
@@ -80,51 +128,7 @@ body {
     font-style: normal;
   }
 
-  .navbar-custom {
-    background-color: black;
-    border-bottom: 1px solid  #44d62c;
-    width: 100%;
-}
-
-  .navbar-custom .navbar-brand,
-  .navbar-custom .navbar-text {
-      color: green;
-  }
-
-
-  i {
-    color: grey;
-  }
-
-  .navitems {
-    color: grey;
-    text-decoration: none;
-  }
-
-  .navitems:hover {
-    color: white;
-  }
-
-  .navbar {
-    width: 100%;
-    padding-top:0 !important;
-  }
-
-  .banner{
-    
-    width: 100%;
-    background-color:  darkgray;
-}
-
-.topbanner {
-    text-align: center;
-    color: white;
-    padding: 15px;
-    font-size: 20px;
-    margin-bottom: 0px;
-
-}
- 
+  
 
 .hero-img {
   display: flex;
@@ -132,14 +136,11 @@ body {
 }
  
 
-.footer-custom {
-  background-color: black;
-  color: white;
-}
+
 
 #box1 {
   /* background-color: pink; */
-  background-image: url(/cloning-project/img/razer-blade-17-2022-b-950x580-desktop-new.jpg);
+  background-image: url(/img/razer-blade-17-2022-b-950x580-desktop-new.jpg);
   /* background-color: pink; */
   height: 600px;
   background-position: center;
@@ -150,7 +151,7 @@ body {
 
 #box2 {
   /* background-color: pink; */
-  background-image: url(/cloning-project/img/win-at-work-b-950x580-desktop.jpg);
+  background-image: url(/img/win-at-work-b-950x580-desktop.jpg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -159,7 +160,7 @@ body {
 
 #box3 {
   /* background-color: pink; */
-  background-image: url(/cloning-project/img/razer-thunderbolt-4-cables-b-950x580-desktop.jpg);
+  background-image: url(/img/razer-thunderbolt-4-cables-b-950x580-desktop.jpg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -168,7 +169,7 @@ body {
 
 #box4 {
   /* background-color: pink; */
-  background-image: url(/cloning-project/img/fragfest-2022-b-950x580-desktop.jpg);
+  background-image: url(/img/fragfest-2022-b-950x580-desktop.jpg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -178,7 +179,7 @@ body {
 
 #box5 {
   /* background-color: pink; */
-  background-image: url(/cloning-project/img/razer-iskur-gaming-chairs-family-b-950x580-desktop.jpg);
+  background-image: url(/img/razer-iskur-gaming-chairs-family-b-950x580-desktop.jpg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -187,11 +188,196 @@ body {
 
 #box6 {
   /* background-color: pink; */
-  background-image: url(/cloning-project/img/razer-gold-new-user-promo-feb-desktop.jpg);
+  background-image: url(/img/razer-gold-new-user-promo-feb-desktop.jpg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
 }
+
+.foot{
+    background-color: black;
+
+}
+.allboxes{ 
+
+    display:flex;
+    justify-content: space-around;
+    background-color: black;
+    margin: 0px;
+
+}  
+
+.box1{
+align-items: baseline;
+color: grey;
+padding-bottom: 20px;
+padding-top: 20px;
+
+
+}
+
+.box2{
+align-items: baseline;
+color: grey;
+padding-bottom: 20px;
+padding-top: 20px;
+
+
+}
+.box3{
+    align-items: center;
+color: grey;
+padding-bottom: 20px;
+padding-top: 20px;
+
+
+}
+
+.box4{
+    align-items: baseline;
+color: grey;
+padding-bottom: 20px;
+padding-top: 20px;
+
+
+}
+
+.box5{
+align-items: baseline;
+color: grey;
+padding-bottom: 20px;
+padding-top: 20px;
+
+}
+
+.heading{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.ft{
+    padding-bottom: 20px;
+
+
+}
+
+
+.fa-facebook{
+    
+    color: green;
+    text-decoration: none;
+    padding: 10px;
+    padding-left: 12px;
+    
+    
+}
+.fa-twitter{
+    color: green;
+    text-decoration: none;
+    padding: 10px;
+    
+    
+    
+
+}
+.fa-instagram{
+    color: green;
+    text-decoration: none;
+    padding: 10px;
+    
+    
+}
+
+.green{
+    color: green;
+    padding-bottom: 20px;
+}
+
+.radious{
+            
+    border-radius: 100%;
+    border: 2px  solid green;
+    margin: 5px;
+    text-align: center;
+   
+   
+}
+
+.social-media{
+    margin-left: 60px;
+}
+
+.hr-line{
+           
+    margin-left: 60px; 
+    margin-right: 50px;
+    color: solid grey;
+ }
+
+.last{
+    display:flex;
+    background-color: black;
+    
+}
+
+.line1{
+    align-items: baseline;
+    color: grey;
+    padding: 20px 30px 20px 60px;
+}
+
+.line2{
+    align-items: baseline;
+    color: grey;
+    padding: 20px 15px 20px;
+    
+}
+.line3{
+    align-items: baseline;
+    color: grey;
+    padding: 20px 15px 20px;
+}
+.line4{
+    align-items: baseline;
+    color: grey;
+    padding: 20px 15px 20px;
+}
+
+.line5{
+    align-items: baseline;
+    color: grey;
+    padding: 20px 15px 20px;
+}
+.line6{
+    align-items: baseline;
+    color: grey;
+    padding: 20px 5px 20px 270px;
+    color: white;
+    
+ }
+
+ .line7{
+    align-items: center;
+    color: grey;
+    padding: 20px 15px 20px 5px ;
+    
+    
+}
+.pipe{
+    color:grey;
+    margin-top: 20px;
+
+}
+.last2{
+    float: right;
+}
+
+.lastcontents:hover{
+    color: white;
+
+}
+
+
 
 
