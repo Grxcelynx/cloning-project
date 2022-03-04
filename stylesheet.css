@@ -76,9 +76,11 @@ nav {
   }
 
   .hero-1 {
-    background-image: url(./img/razer-blade14-2022-homepage-desktop.jpg);
+    background-image: url(./img/razer-huntsman-mini-analog-homepage-desktop1x.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     height: 600px;
+    width: 100%;
     background-position-y: 90%;
     border-bottom: solid 9px rgb(32, 32, 32);
   }
@@ -86,16 +88,18 @@ nav {
   
 
   .hero-2 {
-    background-image: url(./img/razerstore-rewards-desktop.jpg);
+    background-image: url(./img/win-at-work-campaign-homepage-desktop.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     height: 600px;
     border-bottom: solid 9px rgb(32, 32, 32);
 
   }
 
   .hero-3 {
-    background-image: url(./img/complete-your-setup-homepage-desktop.jpg);
+    background-image: url(./img/razer-customs-and-gudetama-homepage-desktop.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     height: 600px;
     border-bottom: solid 5px rgb(32, 32, 32);
 
@@ -108,13 +112,14 @@ nav {
     grid-gap: 9px;
     background-color: rgb(27, 25, 25);
     color: rgb(39, 39, 39);
+    align-items: center;
   }
   
   .boxes-main {
     color: #fff;
     padding: 20px;
     font-size: 150%;
-    align-items:baseline;
+    align-items:center;
   }
 
   .boxtext {
@@ -149,7 +154,7 @@ nav {
 }
 
 #box-two {
-  background-image: url(./img/win-at-work-b-950x580-desktop.jpg);
+  background-image: url(./img/razerstore-rewards-desktop.jpg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -157,7 +162,7 @@ nav {
 }
 
 #box-three {
-  background-image: url(./img/razer-thunderbolt-4-cables-b-950x580-desktop.jpg);
+  background-image: url(./img/outplay-your-competition-b-950x580-desktop.jpg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -165,7 +170,7 @@ nav {
 }
 
 #box-four {
-  background-image: url(./img/fragfest-2022-b-950x580-desktop.jpg);
+  background-image: url(./img/complete-your-setup-homepage-desktop.jpg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -367,13 +372,12 @@ nav {
 
 /* footer ends */
 
-@media screen and (max-width:1395px){
-  .line1 {padding: 15px 20px 20px 60px;
-
+@media screen and (max-width:1390px){
+  .line1 {padding: 15px 5px 5px 60px;
   }
-
-  
 }
+
+
 @media screen and (max-width:1400px){
 nav ul {
   margin-right: 15px;
