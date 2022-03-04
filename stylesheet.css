@@ -2,6 +2,10 @@
   margin: 0px;
   padding: 0px;
   font-family: 'Roboto', sans-serif;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 9b1d95695b8942709a5aa9a4216c96c3b9c0b4bc
 }
 
 nav ul{
@@ -363,5 +367,21 @@ nav {
   color: white;
   text-decoration: underline;
 }
+
+
 /* footer ends */
 
+@media screen and (max-width:1400px){
+  .line5 {padding: 15px 10px 20px ;
+
+  }
+
+  
+}
+@media screen and (max-width:1400px){
+nav ul {
+  margin-right: 15px;
+  padding-left: 35px;
+  padding-right: 15px;
+}
+}
