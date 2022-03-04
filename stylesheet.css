@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+  font-family: 'Roboto', sans-serif;
 }
 
 nav ul{
@@ -363,3 +364,4 @@ nav {
   text-decoration: underline;
 }
 /* footer ends */
+
