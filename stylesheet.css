@@ -195,15 +195,18 @@ nav {
 }
 
 /* footer starts */
+
 .foot{
   background-color: rgb(27, 24, 24);
   height: 350px;
+  
 }
 
 .allboxes{ 
   display:flex;
   justify-content: space-around; 
   margin: 0px;
+  font-size: 15px;
 }  
 
 .box1{
@@ -311,12 +314,15 @@ nav {
 
 .last{
   display:flex;
+  font-size: 15px;
+  padding-left: 12px;
+  padding-right: 20px;
 }
 
 .line1{
   align-items: baseline;
   color: grey;
-  padding: 15px 30px 20px 60px;
+  padding: 15px 30px 20px 65px;
 }
 
 .line2{
@@ -344,14 +350,14 @@ nav {
 .line6{
   align-items: baseline;
   color: grey;
-  padding: 15px 5px 20px 270px;
+  padding: 15px 5px 20px 255px;
   color: white;
 }
 
 .line7{
   align-items: center;
   color: grey;
-  padding: 15px 15px 20px 5px ;
+  padding: 15px 18px 20px 5px ;
   
   
 }
@@ -372,8 +378,9 @@ nav {
 
 /* footer ends */
 
-@media screen and (max-width:1390px){
-  .line1 {padding: 15px 5px 5px 60px;
+@media screen and (max-width:1395px){
+  .line1 {padding: 15px 15px 16px 50px;
+
   }
 }
 
