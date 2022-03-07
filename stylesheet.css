@@ -118,14 +118,15 @@ nav {
     grid-gap: 9px;
     background-color: rgb(27, 25, 25);
     color: rgb(39, 39, 39);
-    align-items: center;
+    /* align-items: center; */
   }
   
   .boxes-main {
     color: #fff;
     padding: 20px;
     font-size: 150%;
-    align-items:center;
+    align-items:baseline;
+    text-align: center;
   }
 
   .boxtext {
@@ -183,6 +184,7 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
+  align-items: center;
 }
 
 #box-two {
@@ -191,6 +193,7 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
+  align-items: center;
 }
 
 #box-three {
