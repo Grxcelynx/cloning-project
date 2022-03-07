@@ -111,7 +111,6 @@ nav {
 
   }
 
-
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -121,6 +120,8 @@ nav {
     align-items: center;
     text-align: center;
   }
+
+  
   
  
   .boxes-main {
@@ -208,6 +209,8 @@ nav {
   background-repeat: no-repeat;
   text-align: center;
   align-items: center;
+  
+  
 }
 
 #box-two {
@@ -217,6 +220,8 @@ nav {
   background-repeat: no-repeat;
   text-align: center;
   align-items: center;
+  
+  
 }
 
 #box-three {
