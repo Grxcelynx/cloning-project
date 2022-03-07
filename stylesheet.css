@@ -151,13 +151,30 @@ nav {
     margin-top: 5px;
   }
 
+  li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+
+.heading-test {
+  float: left;
+  clear: both;
+  color: #fff;
+  text-align: center;
+}
+
+.heading-test2 {
+  float: right;
+  clear: both;
+  color: #fff;
+  text-align: center;
+}
 
 
-  h3 {
+  h3, h6, h5 {
     font-weight: 200;
     font-family: 'Maven Pro', sans-serif;
     font-family: 'Roboto', sans-serif;
-
   }
 
 
