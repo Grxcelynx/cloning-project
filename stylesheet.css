@@ -1,8 +1,9 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Roboto&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&family=Roboto:wght@300&display=swap');
 * {
   margin: 0px;
   padding: 0px;
   font-family: 'Roboto', sans-serif;
-
 }
 
 nav ul{
@@ -77,26 +78,34 @@ nav {
   }
 
   .hero-1 {
-    background-image: url(./img/razer-blade14-2022-homepage-desktop.jpg);
+    background-image: url(./img/razer-huntsman-mini-analog-homepage-desktop1x.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     height: 600px;
+    width: 100%;
     background-position-y: 90%;
     border-bottom: solid 9px rgb(32, 32, 32);
+    
   }
 
-  
+  h2 {
+    font-weight: 500;
+    font-size: 26px;
+  }
 
   .hero-2 {
-    background-image: url(./img/razerstore-rewards-desktop.jpg);
+    background-image: url(./img/win-at-work-campaign-homepage-desktop.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     height: 600px;
     border-bottom: solid 9px rgb(32, 32, 32);
 
   }
 
   .hero-3 {
-    background-image: url(./img/complete-your-setup-homepage-desktop.jpg);
+    background-image: url(./img/razer-customs-and-gudetama-homepage-desktop.jpg);
     background-position: center;
+    background-repeat: no-repeat;
     height: 600px;
     border-bottom: solid 5px rgb(32, 32, 32);
 
@@ -109,6 +118,7 @@ nav {
     grid-gap: 9px;
     background-color: rgb(27, 25, 25);
     color: rgb(39, 39, 39);
+    /* align-items: center; */
   }
   
   .boxes-main {
@@ -116,12 +126,14 @@ nav {
     padding: 20px;
     font-size: 150%;
     align-items:baseline;
+    text-align: center;
   }
 
   .boxtext {
     text-align: center;
     display: inline-block;
     align-items: center;
+    font-family: 'Maven Pro', sans-serif;
     font-family: 'Roboto', sans-serif;
 
   }
@@ -131,10 +143,35 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    text-align: center;
     font-family: 'Maven Pro', sans-serif;
-    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
+    margin-top: 5px;
   }
+
+
+
+  h3 {
+    font-weight: 200;
+    font-family: 'Maven Pro', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+
+  .arrow {
+    border: solid rgb(14, 248, 6);
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+  
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  
 
 .hero-img {
   display: flex;
@@ -147,18 +184,20 @@ nav {
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
+  align-items: center;
 }
 
 #box-two {
-  background-image: url(./img/win-at-work-b-950x580-desktop.jpg);
+  background-image: url(./img/razerstore-rewards-desktop.jpg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
+  align-items: center;
 }
 
 #box-three {
-  background-image: url(./img/razer-thunderbolt-4-cables-b-950x580-desktop.jpg);
+  background-image: url(./img/outplay-your-competition-b-950x580-desktop.jpg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -166,7 +205,7 @@ nav {
 }
 
 #box-four {
-  background-image: url(./img/fragfest-2022-b-950x580-desktop.jpg);
+  background-image: url(./img/complete-your-setup-homepage-desktop.jpg);
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
@@ -378,9 +417,9 @@ nav {
   .line1 {padding: 15px 15px 16px 50px;
 
   }
-
-  
 }
+
+
 @media screen and (max-width:1400px){
 nav ul {
   margin-right: 15px;
