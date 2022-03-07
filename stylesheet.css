@@ -150,7 +150,13 @@ nav {
     margin-top: 5px;
   }
 
-  li {
+  .link-header-list {
+    display: inline-block;
+    padding: 0px 20px;
+    list-style-type: none;
+  }
+
+  .link-header {
     display: inline-block;
     padding: 0px 20px;
   }
