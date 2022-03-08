@@ -111,6 +111,7 @@ nav {
 
   }
 
+
   .wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -120,8 +121,6 @@ nav {
     align-items: center;
     text-align: center;
   }
-
-  
   
  
   .boxes-main {
@@ -137,6 +136,7 @@ nav {
     align-items: center;
     font-family: 'Maven Pro', sans-serif;
     font-family: 'Roboto', sans-serif;
+    align-items: center;
   }
 
   .HASH {
@@ -149,32 +149,28 @@ nav {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     margin-top: 5px;
+    max-width: 500px;
   }
 
-  li {
+  .link-header-list {
+    text-align: center;
+    align-items: center;
+  }
+
+  .link-header {
     display: inline-block;
     padding: 0px 20px;
+    text-align: center;
+    align-items: center;
   }
 
-.heading-test {
-  float: left;
-  clear: both;
-  color: #fff;
-  text-align: center;
-}
 
-.heading-test2 {
-  float: right;
-  clear: both;
-  color: #fff;
-  text-align: center;
-}
-
-
-  h3, h6, h5 {
+  h3, h5, h6 {
     font-weight: 200;
     font-family: 'Maven Pro', sans-serif;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
+    align-items: center;
   }
 
 
@@ -203,8 +199,6 @@ nav {
   background-repeat: no-repeat;
   text-align: center;
   align-items: center;
-  
-  
 }
 
 #box-two {
@@ -214,8 +208,6 @@ nav {
   background-repeat: no-repeat;
   text-align: center;
   align-items: center;
-  
-  
 }
 
 #box-three {
