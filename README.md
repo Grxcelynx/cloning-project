@@ -39,8 +39,8 @@ and that's it! You can now make your own changes and create new functions/featur
 
 ## <a name="connect"></a>Connect
 Any questions about this repo, advice on better tools, or even to tech chat, feel free to connect with us! 
-Grace Birnam:
+* Grace Birnam:
 https://www.linkedin.com/in/grace-birnam-74a761163/
-Ruku Bhattarai:
+* Ruku Bhattarai:
 https://www.linkedin.com/in/ruku-bhattarai-806828230/
 
