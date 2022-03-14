@@ -1,6 +1,8 @@
 # Cloning Project - Razer Landing Page - 03/07/2022
 
 This project showcases Grace Birnam and Ruku Bhattarai's collaborative work in achieving a clone of Razer's landing/homepage.
+* Navbar and footer done by Ruku 
+* Body Content done by Grace 
 ## View and Interact
 https://grxcelynx.github.io/cloning-project/
 ## Contents 
